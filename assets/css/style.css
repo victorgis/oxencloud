@@ -376,7 +376,7 @@ section {
 
 @media (max-width: 1200px) {
   .mobile-nav-toggle {
-    /* display: block; */
+    display: block;
   }
 
   .navbar ul {
@@ -532,7 +532,7 @@ section {
 
 @media (max-width: 991px) {
   .hero {
-    /* height: auto; */
+    height: auto;
     padding: 120px 0 60px 0;
   }
 
@@ -573,6 +573,19 @@ section {
 .about .content {
   background-color: #f6f9ff;
   padding: 40px;
+  /* text-align: justify; */
+}
+@media (max-width: 991px) {
+  .about .content {
+    padding: 20px;
+  }
+  .about .content h4 {
+    text-align: center;
+  }
+}
+
+.about .content ul li {
+  padding: 10px 0;
 }
 
 .about h3 {
