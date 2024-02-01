@@ -531,6 +531,9 @@ section {
 }
 
 @media (max-width: 991px) {
+  .mobile-nav-toggle {
+    display: block;
+  }
   .hero {
     height: auto;
     padding: 120px 0 60px 0;
@@ -547,6 +550,9 @@ section {
 }
 
 @media (max-width: 768px) {
+  .mobile-nav-toggle {
+    display: block;
+  }
   .hero {
     text-align: center;
   }
@@ -565,15 +571,11 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Index Page
---------------------------------------------------------------*/
-/*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
 .about .content {
   background-color: #f6f9ff;
   padding: 40px;
-  /* text-align: justify; */
 }
 @media (max-width: 991px) {
   .about .content {
